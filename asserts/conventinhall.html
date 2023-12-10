@@ -1,0 +1,316 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Choose the Convention Hall</title>
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/css/bootstrap.min.css">
+
+    <!-- Bootstrap CSS -->
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-1BmE4kWBq78iYhFldvKuhfTAU6auU8tT94WrHftjDbrCEXSU1oBoqyl2QvZ6jIW3" crossorigin="anonymous">
+
+    <!-- Bootstrap Icons Link -->
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.11.2/font/bootstrap-icons.min.css">
+
+    <!-- Animation css -->
+    <link href="https://unpkg.com/aos@2.3.1/dist/aos.css" rel="stylesheet">
+
+  <!-- fonts link  -->
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Agbalumo&family=Exo+2&family=Lobster&family=Open+Sans:ital,wght@0,300;0,400;0,500;1,300;1,400&family=Rubik+Bubbles&display=swap" rel="stylesheet">
+
+<!-- title icon -->
+<link rel="shortcut icon" href="./images/fBvriz  b.png" type="images/png">
+<!-- icon link -->
+<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.1/css/all.min.css" integrity="sha512-DTOQO9RWCH3ppGqcWaEA1BIZOC6xxalwEsw9c2QQeAIftl+Vegovlnee1c9QX4TctnWMn13TZye+giMm8e2LwA==" crossorigin="anonymous" referrerpolicy="no-referrer" />
+
+<!-- internal styling -->
+    <style>
+       html,body{
+        width: 100%;
+          margin: 0;
+          padding: 0;
+          box-sizing: border-box;
+          overflow-x: hidden;
+       }
+      /* body */
+        body {
+            font-family: Arial, sans-serif;
+           background-image: linear-gradient(to left, #0072ff, #009aff, #00bcff, #00daff, #00f4ff);
+           text-align: center;
+        }
+
+        /* header */
+        header {
+            color: white;
+            text-align: center;
+        }
+
+        /* section */
+        section {
+            padding: 20px;
+            margin: 20px 0;
+        }
+
+        /* footer */
+        footer {
+            background-color: #333;
+            color: white;
+            text-align: center;
+            padding: 10px;
+        }
+
+        /* bg-image for welcome greetings */
+        #home{
+            background-image: url(./images/bg-1.jpg) ;
+        }
+
+        /* bg-image and font-style for header */
+        h1{
+         background-image: linear-gradient(to left, #0072ff, #009aff, #00bcff, #00daff, #00f4ff);
+          font-family: Lobster;
+        }
+     
+    </style>
+</head>
+<body>
+  <!-- header -->
+  <div class="container">
+<header>
+    <h1 class="fixed-top p-3" style="box-shadow: 10px 10px 10px;display: flex;justify-content: space-evenly;align-content: center;flex-wrap: wrap;">
+       <img src="./images/fBvriz  b.png" alt="" height="50px" width="100px" class="d-flex">Choose The Convention Hall
+       <img src="./images/cute-penguin.gif" alt="" width="50px">
+    </h1>
+ </header>
+</div>  
+    
+
+    <!-- carousel -->
+    <div class="container">
+      <div id="carouselExampleControls" class="carousel slide" data-bs-ride="carousel" >
+          <div class="carousel-inner">
+            <div class="carousel-item active">
+              <img src="./images/conv-1.jpg" class="d-block w-100" alt="..." height="925px">
+            </div>
+            <div class="carousel-item">
+              <img src="./images/conv-2.jpg" class="d-block w-100" alt="..." height="925px">
+            </div>
+            <div class="carousel-item">
+              <img src="./images/conv-3.jpg" class="d-block w-100" alt="..." height="925px">
+            </div>
+          </div>
+          <button class="carousel-control-prev" type="button" data-bs-target="#carouselExampleControls" data-bs-slide="prev">
+            <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+            <span class="visually-hidden">Previous</span>
+          </button>
+          <button class="carousel-control-next" type="button" data-bs-target="#carouselExampleControls" data-bs-slide="next">
+            <span class="carousel-control-next-icon" aria-hidden="true"></span>
+            <span class="visually-hidden">Next</span>
+          </button>
+        </div>
+      </div>
+
+       <!-- Welcome greetings -->
+       <div class="container">
+        <section id="home" class="shadow-lg p-3 mb-5 bg-body rounded">
+         
+            <h2 style="text-align:center ;">Welcome to <span style="color: cyan;"> ASH Convention Hall</span></h2>
+            <p style="text-align:center ;">Find the perfect venue for your special events! Whether it's a wedding, birthday party, corporate event, or any other celebration,<span style="color: cyan;"> we've got you covered.</span></p>
+         
+        </section>
+      </div>
+
+      <!-- cards  -->
+      <div class="container" style="overflow: hidden;">
+        <div class="row row-cols-1 row-cols-md-2 g-2" >
+          <div class="col" data-aos="fade-right"
+         data-aos-offset="300"
+         data-aos-easing="ease-in-sine">
+            <div class="card h-100 bg-secondary text-light" style="width: 450px;box-shadow: 30px 20px 50px 1px rgb(77, 77, 77);">
+              <img src="./images/c-1.jpg" class="card-img-top" alt="..." style="height: 350px;">
+              <div class="card-body ">
+                <h5 class="card-title">Vaaraahi Banquets<i class="bi bi-star-fill text-warning"></i> 4.8</h5>
+                <p class="card-text">Banquet Halls is an enclosed space suitable for hosting a variety of events such as birthday parties, corporate events, engagement ceremonies, weddings, receptions, etc. They are beautifully designed and decorated to create an elegant ambience for any event you are hosting. Banquet halls can be booked for a stipulated time period during which the event has to take place.<br>
+                  <b>₹1,20,000</b> per day <br>
+              indoor <i class="bi bi-circle-fill"></i> 300-500 People </p>
+              <button class="bg-info text-secondary">Book Right Now</button>
+              </div>
+              <div class="card-footer">
+                <small class="text">Last updated 3 mins ago</small>
+              </div>
+            </div>
+          </div>
+          <div class="col"data-aos="fade-left"
+          data-aos-offset="300"
+          data-aos-easing="ease-in-sine">
+            <div class="card h-100 bg-secondary text-light" style="width: 450px;box-shadow: 30px 20px 50px 1px rgb(77, 77, 77);">
+              <img src="./images/c-2.jpg" class="card-img-top" alt="..." height="350px">
+              <div class="card-body">
+                <h5 class="card-title">Sahana Castle<i class="bi bi-star-fill text-warning"></i> 4.3</h5>
+                <p class="card-text">Whether you're hosting a business event or social party, sahana castle this is the decisive moment to make it a big hit. The Mini Banquet Hall at Sahana Castle is elegantly designed in every corner to provide this decisive moment. With a Seating capacity of 60 people, this Mini Banquet Hall is ideal for holding company meetings and social gatherings.<br>
+                  <b>₹1,00,000</b> per day <br>
+              indoor <i class="bi bi-circle-fill"></i> 300-400 People </p>
+              <button class="bg-info text-secondary">Book Right Now</button>
+              </div>
+              <div class="card-footer">
+                <small class="text">Last updated 3 mins ago</small>
+              </div>
+            </div>
+          </div>
+        </div>
+    <br>
+        <div class="row row-cols-1 row-cols-md-2 g-2">
+          <div class="col" data-aos="fade-right"
+          data-aos-offset="300"
+          data-aos-easing="ease-in-sine">
+            <div class="card h-100 bg-secondary text-light" style="width: 450px;box-shadow: 30px 20px 50px 1px rgb(77, 77, 77);">
+              <img src="./images/c-3.jpg" class="card-img-top" alt="..." style="height: 350px;">
+              <div class="card-body ">
+                <h5 class="card-title">Palace Grounds<i class="bi bi-star-fill text-warning"></i> 4.5</h5>
+        <p class="card-text">Palace Ground is the most sought-after wedding venue in Bangalore. However, it has 15+ venues, and visiting all of them can be cumbersome.
+         We have put together a list of 15 royal Palace Ground wedding halls and lawns with prices and contact details to help you choose the right venue. <br>
+            <b>₹80,000</b> per day <br>
+        indoor <i class="bi bi-circle-fill"></i> 200-300 People </p>
+              <button class="bg-info text-secondary">Book Right Now</button>
+              </div>
+              <div class="card-footer">
+                <small class="text">Last updated 3 mins ago</small>
+              </div>
+            </div>
+          </div>
+          <div class="col" data-aos="fade-left"
+          data-aos-offset="300"
+          data-aos-easing="ease-in-sine">
+            <div class="card h-100 bg-secondary text-light" style="width: 450px;box-shadow: 30px 20px 50px 1px rgb(77, 77, 77);">
+              <img src="./images/c-4.jpg" class="card-img-top" alt="..." height="350px">
+              <div class="card-body">
+                <h5 class="card-title">uio Banquet Hall<i class="bi bi-star-fill text-warning"></i> 4.3</h5>
+        <p class="card-text">the venue also offers a comprehensive decor service. They understand that the ambiance and aesthetics of an event play a crucial role in creating a memorable experience. With a team of talented decorators and access to a wide range of themes, styles, and decorative items, they have the expertise .<br>
+            <b>₹20,000</b> per day <br>
+        indoor <i class="bi bi-circle-fill"></i> 50-60 People </p>
+              <button class="bg-info text-secondary">Book Right Now</button>
+              </div>
+              <div class="card-footer">
+                <small class="text">Last updated 3 mins ago</small>
+              </div>
+            </div>
+          </div>
+        </div>
+    
+        <br>
+        <div class="row row-cols-1 row-cols-md-2 g-2">
+          <div class="col" data-aos="fade-right"
+          data-aos-offset="300"
+          data-aos-easing="ease-in-sine">
+            <div class="card h-100 bg-secondary text-light" style="width: 450px;box-shadow: 30px 20px 50px 1px rgb(77, 77, 77);">
+              <img src="./images/c-5.jpg" class="card-img-top" alt="..." style="height: 350px;">
+              <div class="card-body ">
+                <h5 class="card-title">input Banquet Hall<i class="bi bi-star-fill text-warning"></i> 4.3</h5>
+                <p class="card-text">A memorable celebration needs the perfect venue. Whether it is a corporate event or a close family reception, the magic lies in the place of celebration. That is why we have created the most beautiful venue for you to celebrate your merry occasion.<br>
+                    <b>₹50,000</b> per day <br>
+              indoor <i class="bi bi-circle-fill"></i> 100-200 People </p>
+              <button class="bg-info text-secondary">Book Right Now</button>
+              </div>
+              <div class="card-footer">
+                <small class="text">Last updated 3 mins ago</small>
+              </div>
+            </div>
+          </div>
+          <div class="col" data-aos="fade-left"
+          data-aos-offset="300"
+          data-aos-easing="ease-in-sine">
+            <div class="card h-100 bg-secondary text-light" style="width: 450px;box-shadow: 30px 20px 50px 1px rgb(77, 77, 77);">
+              <img src="./images/c-6.jpg" class="card-img-top" alt="..." height="350px">
+              <div class="card-body">
+                <h5 class="card-title">The Kohinoor - Ac Banquet Hall<i class="bi bi-star-fill text-warning"></i> 4.3</h5>
+        <p class="card-text">
+          The  Banquets in Pune boasts the largest air-conditioned banquet hall in the city, spanning an impressive 13,000 square feet. With an additional pre-function area of 5200 square feet, this venue offers ample space.<br>
+            <b>₹2,50,000</b> per day <br>
+      indoor <i class="bi bi-circle-fill"></i> 500-1500 People </p>
+              <button class="bg-info text-secondary">Book Right Now</button>
+              </div>
+              <div class="card-footer">
+                <small class="text">Last updated 3 mins ago</small>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+
+       <!-- contact form -->
+    <section class="contact-form w-50">
+      <div class="container">
+      <h2>Contact Us</h2>
+      <form>
+          <div class="mb-3">
+              <label for="name" class="form-label">Your Name</label>
+              <input type="text" class="form-control" id="name" name="name" required>
+          </div>
+          <div class="mb-3">
+              <label for="email" class="form-label">Your Email</label>
+              <input type="email" class="form-control" id="email" name="email" required>
+          </div>
+          <div class="mb-3">
+              <label for="message" class="form-label">Your Message</label>
+              <textarea class="form-control" id="message" name="message" rows="4" required></textarea>
+          </div>
+          <button type="submit" class="btn btn-primary">Send Message</button>
+      </form>
+    </div>
+  </section>
+
+  <!-- About us -->
+<section id="about" style="text-align: center;">
+  <div class="container">
+        <h2>About Us</h2>
+        <p>We are passionate about helping you find the ideal function hall for your events. Our team is committed to providing personalized assistance to ensure your gatherings are memorable and stress-free.</p>
+      </div>
+</section>
+
+ <!-- footer -->
+ <footer class="container-fluid" data-aos="zoom-in-down">
+  <div class="row bg-dark mt-5 py-2">
+    <div class="col-12 col-sm-4 col-md-4 col-lg-5 mt-5" style="color: #ffffff;">
+     <h2>OUR VISION</h2>
+     <p>Our vision is to create an online identity for every service provider in the event industry with a digital marketplace We aspire to empower budding entrepreneurs and small vendors with digital identities for a sustainable business.</p>
+     <h2>OUR VALUES </h2>
+     <P><b>Integrity</b> - We uphold the highest level of integrity in all aspects of our operations</P>
+     <p><b>Accountability</b> -This website uses cookies to enhance the user experience.</p>
+    </div> 
+    <div class="col-12 col-sm-4 col-md-4 col-lg-3 mt-5">
+        <i class="fa-solid fa-location-dot pe-3" style="color: #ffffff;"></i>
+      <small style="color: #ffffff;">508, Manjeera Majestic Commercial, JNTU Rd, beside manjeera mall, K P H B Phase 1, Kukatpally, Hyderabad, Telangana 500072</small>
+      <div class="mt-3">
+        <i class="fa-regular fa-envelope pe-3" style="color: #ffffff;"></i>
+        <b style="color: #ffffff;"> example@gmail.com</b>
+      </div>
+      <div class="mt-3">
+        <i class="fa-solid fa-phone pe-3" style="color: #ffffff;"></i>
+        <b style="color: #ffffff;"> +91 9876543210</b>
+      </div>
+    </div>
+    <div class="col-12 col-sm-4 col-md-4 col-lg-4 mt-5">
+      <h3 class="d-lg-mb-4" style="color: #ffffff;">Follow us</h3>
+            <i class="fa-brands fa-square-twitter fs-3" style="color: #ffffff;"></i>
+            <i class="fa-brands fa-square-facebook fs-3 ps-2" style="color: #ffffff;"></i>
+            <i class="fa-brands fa-square-instagram fs-3 ps-2" style="color: #ffffff;"></i>
+            <i class="fa-brands fa-linkedin fs-3 ps-2" style="color: #ffffff;"></i><br><br>
+            <b style="color: #ffffff;">Office Location:</b>
+        <iframe src="https://www.google.com/maps/embed?pb=!1m16!1m12!1m3!1d3805.3246154767967!2d78.38941526644155!3d17.492010905432902!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!2m1!1s508%2C%20Manjeera%20Majestic%20Commercial%2C%20JNTU%20Rd%2C%20beside%20manjeera%20mall%2C%20K%20P%20H%20B%20Phase%201%2C%20Kukatpally%2C%20Hyderabad%2C%20Telangana%20500072!5e0!3m2!1sen!2sin!4v1701587689144!5m2!1sen!2sin" width="250px" height="250px" style="border:0;" allowfullscreen="" loading="lazy" referrerpolicy="no-referrer-when-downgrade" class="mt-3"></iframe>
+    </div>
+  </div>
+ </footer>
+ <div class="container-fluid text-center py-4" style="color: white; background-color: black;">
+  <p> <i class="fa-regular fa-copyright" style="color: #ffffff;"></i>All CopyRights Resvered by<img src="./images/ash.png" alt=""  width="100px" height="30px"> <a href="#" style="color: gold; text-decoration: none;" class="ps-5">Privacy Policy</a> <a href="#" style="color: gold; text-decoration: none;" class="ps-5"id="id1">Terms & Conditions</a></p>
+ </div>
+            <!-- js script -->
+            <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/js/bootstrap.bundle.min.js" integrity="sha384-ka7Sk0Gln4gmtz2MlQnikT1wXgYsOg+OMhuP+IlRH9sENBO0LRn5q+8nbTov4+1p" crossorigin="anonymous"></script>
+            <!-- animation script 1  -->
+            <script src="https://unpkg.com/aos@2.3.1/dist/aos.js"></script>
+            <!-- animation script 2 -->
+            <script>
+              AOS.init();
+            </script>
+</body>
+</html>
